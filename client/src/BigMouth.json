@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Connie",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/7/7d/Big_Mouth_HD_CLEAR_Character_ART_Connie_the_Hormone_Monstress.png/revision/latest/top-crop/width/200/height/150?cb=20190402091203",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "Andrew",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/d/d0/Big_Mouth_HD_CLEAR_Character_ART_Andrew_Glouberman.png/revision/latest/top-crop/width/200/height/150?cb=20190402091138",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "Jay",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/f/f6/Big_Mouth_HD_CLEAR_Character_ART_Jay_Bilzerian.png/revision/latest/top-crop/width/200/height/150?cb=20190402091226",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "Nick",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/b/b0/Big_Mouth_HD_CLEAR_Character_ART_Nick_Birch.png/revision/latest/top-crop/width/200/height/150?cb=20190402091427",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "Jessi",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/d/dc/Big_Mouth_HD_CLEAR_Character_ART_Jessi_Glaser.png/revision/latest/top-crop/width/200/height/150?cb=20190402091249",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "Maurice",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/f/f7/Big_Mouth_HD_CLEAR_Character_ART_Maurice_the_Hormone_Monster.png/revision/latest/top-crop/width/200/height/150?cb=20190402091334",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "Coach Steve",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/3/3a/Coach_Steve.png/revision/latest?cb=20191101015122",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "Pam",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/f/ff/Pam.jpg/revision/latest/scale-to-width-down/310?cb=20181008115440",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "Lola",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/0/03/Lola_Skumpy.png/revision/latest/top-crop/width/200/height/150?cb=20191102081438",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "Devon",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/d/d7/DeVon.png/revision/latest/top-crop/width/200/height/150?cb=20191102082404",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "name": "Marty",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/f/f5/Marty_Glouberman.jpeg/revision/latest/scale-to-width-down/310?cb=20191111155726",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "name": "Devin",
+      "image": "https://vignette.wikia.nocookie.net/bigmouth/images/9/99/Devin.png/revision/latest/top-crop/width/200/height/150?cb=20191102081637",
+      "clicked": false
+    }
+  ]
