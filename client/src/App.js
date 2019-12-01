@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import Wrapper from "./components/Wrapper";
 import Card from "./components/Card";
 import Navbar from "./components/Navbar";
-import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import BigMouth from "./BigMouth.json";
 
@@ -10,28 +10,28 @@ class App extends Component {
     BigMouth,
     score: 0,
     topScore: 0,
-    message: "Click on a character to earn points, but don't select a character more than once!",
+    message: "Click a Character, the cards will switch order, careful not to pick the same one twice!",
   };
 
 
   handleClick = (id, clicked) => {
 
-    const imageOrder = this.state.BigMouth;
+    const changeOrder = this.state.BigMouth;
 
     if (clicked) {
-      imageOrder.forEach((image, index) => {
-        imageOrder[index].clicked = false;
+      changeOrder.forEach((image, index) => {
+        changeOrder[index].clicked = false;
       });
       return this.setState({
-        image: imageOrder.sort(() => Math.random() - 0.5),
-        message: "That was wrong!",
+        image: changeOrder.sort(() => Math.random() - 0.5),
+        message: "NO!",
         score: 0
       })
     }
     else {
-      imageOrder.forEach((image, index) => {
+      changeOrder.forEach((image, index) => {
         if (id === image.id) {
-          imageOrder[index].clicked = true;
+          changeOrder[index].clicked = true;
         }
       });
 
@@ -40,14 +40,13 @@ class App extends Component {
       const newTopScore = newScore > topScore ? newScore : topScore;
 
       return this.setState({
-        image: imageOrder.sort(() => Math.random() - 0.5),
-        message: "You Guessed Correctly!",
+        image: changeOrder.sort(() => Math.random() - 0.5),
+        message: "YES!",
         score: newScore,
         topScore: newTopScore,
       })
     }
   };
-  // Map over this.state.BigMouth and render a FriendCard component for each friend object
   render() {
     return (
       <div>
